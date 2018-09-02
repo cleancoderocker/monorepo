@@ -1,0 +1,44 @@
+8 error Error: Command failed: git rev-list --count --all --max-count=1
+8 error usage: git rev-list [OPTION] <commit-id>... [ -- paths... ]
+8 error   limiting output:
+8 error     --max-count=<n>
+8 error     --max-age=<epoch>
+8 error     --min-age=<epoch>
+8 error     --sparse
+8 error     --no-merges
+8 error     --min-parents=<n>
+8 error     --no-min-parents
+8 error     --max-parents=<n>
+8 error     --no-max-parents
+8 error     --remove-empty
+8 error     --all
+8 error     --branches
+8 error     --tags
+8 error     --remotes
+8 error     --stdin
+8 error     --quiet
+8 error   ordering output:
+8 error     --topo-order
+8 error     --date-order
+8 error     --reverse
+8 error   formatting output:
+8 error     --parents
+8 error     --children
+8 error     --objects | --objects-edge
+8 error     --unpacked
+8 error     --header | --pretty
+8 error     --abbrev=<n> | --no-abbrev
+8 error     --abbrev-commit
+8 error     --left-right
+8 error   special purpose:
+8 error     --bisect
+8 error     --bisect-vars
+8 error     --bisect-all
+8 error
+8 error
+8 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:172:9)
+8 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:341:15)
+8 error     at Object.execSync (/usr/local/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:22:16)
+8 error     at isAnythingCommitted (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/lib/is-anything-committed.js:11:35)
+8 error     at VersionCommand.initialize (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/index.js:80:10)
+8 error     at Promise.resolve.then (/usr/local/lib/node_modules/lerna/node_modules/@lerna/command/index.js:245:24)

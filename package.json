@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "lerna": "^3.2.1"
+  }
+}
